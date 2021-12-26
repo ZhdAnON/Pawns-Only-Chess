@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Pawns-Only_Chess.Pawns-Only_Chess-task-build-classes-kotlin.main" target="11" />
+      <module name="Pawns-Only_Chess.Pawns-Only_Chess-task-build-reports-tests.main" target="11" />
+      <module name="Pawns-Only_Chess.Pawns-Only_Chess-task-build-test-results.main" target="11" />
+      <module name="Pawns-Only_Chess.Pawns-Only_Chess-task-build-tmp.main" target="11" />
+      <module name="Pawns-Only_Chess.Pawns-Only_Chess-task.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Companion_object-Board_game_basics__Player.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Companion_object-Companion.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Companion_object-Fix_an_error.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Companion_object-Fix_me.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Companion_object-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-Currencies.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-Currency_comparison.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-Danger_level.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-Rainbow_colors.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-The_rainbow_order.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Enum-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Apple_pie.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Desks.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Divide_nuts_equally_between_squirrels.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Good_rest_on_vacation.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-How_many_nuts_will_be_left_after_division.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Next_even_number.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Reversing_a_number.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-The_first_digit_of_a_two-digit_number.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-The_sum_of_digits.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Integers_in_action-Time_difference.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Member_functions-Application_as_a_class.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Member_functions-Car.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Member_functions-Patient_needs_a_doctor.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Member_functions-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Member_functions-Volume_of_a_cube.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Busy_internship.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Christmas_tree.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Clothing_problem.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Heroes_and_villains.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Improve_your_vehicle.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-New_Inner_class.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Pumpkin_and_candle.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Nested_and_inner_classes-Your_vehicle.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Blocks_in_a_box.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Board_game_basics__Game.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Cell.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Library.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Manager.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Object_declarations-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Boys_in_the_sport_class.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Check_the_sum.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Check_the_value.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Exactly_one_parameter_is_positive.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Groundhogs_at_the_party.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Inbetween.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Relational_operators-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Scopes-Cyclist.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Scopes-Open_chest_in_Hogwarts.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Scopes-Power_and_scopes.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Scopes-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Scopes-Unlucky_one.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Type_conversion-Lie_detector.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Type_conversion-Simple_converter.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Type_conversion-Sum_of_Longs.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Type_conversion-The_superior_forces_of_the_Empire.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Type_conversion-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: // declare your enum here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6252#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:22:9: error: a 'return' expression required in a function with a block body ('{...}')
+            }
+            ^
+  time: Sat, 18 Dec 2021 16:26:11 UTC
+record: -1
