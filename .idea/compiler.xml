@@ -49,6 +49,13 @@
       <module name="Pawns-Only_Chess.Topics-Object_declarations-Library.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Object_declarations-Manager.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Object_declarations-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-City_population.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Correct_overriding.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Field_access.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Mutable_state.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Property_syntax.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Theory.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Properties_accessors-Weather_comparison.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Relational_operators-Boys_in_the_sport_class.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Relational_operators-Check_the_sum.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Relational_operators-Check_the_value.main" target="11" />
@@ -61,6 +68,10 @@
       <module name="Pawns-Only_Chess.Topics-Scopes-Power_and_scopes.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Scopes-Theory.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Scopes-Unlucky_one.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Secondary_constructor-Barista_problem.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Secondary_constructor-Fabric_manufacture.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Secondary_constructor-Frozen_desserts.main" target="11" />
+      <module name="Pawns-Only_Chess.Topics-Secondary_constructor-Theory.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Type_conversion-Lie_detector.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Type_conversion-Simple_converter.main" target="11" />
       <module name="Pawns-Only_Chess.Topics-Type_conversion-Sum_of_Longs.main" target="11" />

@@ -59,6 +59,13 @@
             <option value="$PROJECT_DIR$/Topics/Object declarations/Library" />
             <option value="$PROJECT_DIR$/Topics/Object declarations/Manager" />
             <option value="$PROJECT_DIR$/Topics/Object declarations/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/City population" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Correct overriding" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Field access" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Mutable state" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Property syntax" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Properties accessors/Weather comparison" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Boys in the sport class" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Check the sum" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Check the value" />
@@ -71,6 +78,10 @@
             <option value="$PROJECT_DIR$/Topics/Scopes/Power and scopes" />
             <option value="$PROJECT_DIR$/Topics/Scopes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Scopes/Unlucky one" />
+            <option value="$PROJECT_DIR$/Topics/Secondary constructor/Barista problem" />
+            <option value="$PROJECT_DIR$/Topics/Secondary constructor/Fabric manufacture" />
+            <option value="$PROJECT_DIR$/Topics/Secondary constructor/Frozen desserts" />
+            <option value="$PROJECT_DIR$/Topics/Secondary constructor/Theory" />
             <option value="$PROJECT_DIR$/Topics/Type conversion/Lie detector" />
             <option value="$PROJECT_DIR$/Topics/Type conversion/Simple converter" />
             <option value="$PROJECT_DIR$/Topics/Type conversion/Sum of Longs" />
