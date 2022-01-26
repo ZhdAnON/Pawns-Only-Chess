@@ -5,8 +5,10 @@ object ChessBoard {
     private var player1Name: String = ""
     private var player2Name: String = ""
     private var isFirstPlayer = true
+//    хранение информации о первом ходе фигуры
     private val whiteFirstStep = MutableList(8) { '0' }
     private val blackFirstStep = MutableList(8) { '0' }
+//    проверка возможность взятия стоящей рядом фигуры противника
     private val isNextStep = MutableList(8) { MutableList(8) { false } }
 
     init {
@@ -19,14 +21,14 @@ object ChessBoard {
         setPlayersNames()
         printBoard()
     }
-
+//    установка имён игроков
     private fun setPlayersNames() {
         println("First Player's name:")
         player1Name = readLine()!!
         println("Second Player's name:")
         player2Name = readLine()!!
     }
-
+//    старт игры
     fun playGame() {
         val regex = "[a-h][1-8][a-h][1-8]".toRegex()
         while (true) {
@@ -84,7 +86,7 @@ object ChessBoard {
         }
         println("Bye!")
     }
-
+//    проверка легитимности хода
     private fun checkTurn(turn: String, symbol: Char): Int {
         val letter1 = letterToNumber(turn[0])
         val number1 = turn[1].toString().toInt()
@@ -116,7 +118,6 @@ object ChessBoard {
                 } else if (board[number1 - 1][letter1] != symbol) 2
                 else if (board[number2 - 1][letter2] != ' ') 1
                 else {
-//                    println("жрём")
                     5
                 }
             }
@@ -127,7 +128,7 @@ object ChessBoard {
             }
         }
     }
-
+//    перевод буквы в число (для задания координаты фигуры)
     private fun letterToNumber(letter: Char): Int {
         return when (letter) {
             'a' -> 0
@@ -140,7 +141,7 @@ object ChessBoard {
             else -> 7
         }
     }
-
+//    проверка нахождения фигуры противника по диагонали
     private fun isEnemyOnDiagonal(turn: String, enemy: Char = 'B'): Boolean {
         val let1 = letterToNumber(turn[0])
         val let2 = letterToNumber(turn[2])
@@ -152,7 +153,7 @@ object ChessBoard {
         }
         return result
     }
-
+//    проверка нахождения фигуры противника рядом
     private fun isEnemyNear(turn: String, enemy: Char): Boolean {
         val let1 = letterToNumber(turn[0])
         val num1 = turn[1].toString().toInt()
@@ -163,7 +164,7 @@ object ChessBoard {
             else -> board[num1 - 1][6] == enemy
         }
     }
-
+//    печать игрового поля
     private fun printBoard() {
         println("  +---+---+---+---+---+---+---+---+")
         for (i in board.lastIndex downTo 0) {
@@ -179,7 +180,7 @@ object ChessBoard {
         }
         println()
     }
-
+//    проверка состояния игры
     private fun gameState(enemy: Char): Int {
         if (board[7].isNotEmpty() || board[0].isNotEmpty()) {
             if (board[7].contains('W')) return 1
@@ -192,7 +193,7 @@ object ChessBoard {
         if (checkStalemate(enemy)) return 3
         return 0
     }
-
+//    проверка наличия фигур противника
     private fun isNotEnemySymbol(enemy: Char): Boolean {
         var temp = true
         for (i in 0 until board.size) {
@@ -202,7 +203,7 @@ object ChessBoard {
         }
         return temp
     }
-
+//    проверка на предмет ничейного результата партии
     private fun checkStalemate(symbolTemp: Char): Boolean {
         var resultCount = countFigure(symbolTemp)
         for (i in 0 until board.size) {
@@ -216,7 +217,7 @@ object ChessBoard {
         }
         return resultCount == 0
     }
-
+//    проверка возможности сделать ход фигурами заданного цвета
     private fun isFigureCanStep(number: Int, letter: Int, symbol: Char): Boolean {
         val enemy = if (symbol == 'W') 'B' else 'W'
 
@@ -260,7 +261,7 @@ object ChessBoard {
 
         return false
     }
-
+//    подсчёт фигур заданного цвета
     private fun countFigure(symbol: Char): Int {
         var result = 0
         for (i in board.indices) {
